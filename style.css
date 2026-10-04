@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+    background-image: url(.public/windows-xp.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(36, 33, 33);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#githubcard{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width: 38%;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: silver;
+    justify-content:space-around ;
+    align-items: center;
+    /* gap: 50px; */
+}
+img{
+    align-self: flex-start;
+    border-radius: 100%;
+    position: relative;
+    top: 80px;
+}
+.detail-card{
+    height: 90%;
+    width: 70%;
+    background-color: beige;
+    border-radius: 20px;
+}
+#avatar{
+    height: 34%;
+    width: 18%;
+}
+button{
+    position: relative;
+    right: 13%;
+    padding: 10px 30px;
+    border-radius: 12px;
+    background-color: silver;
+    border: none;
+    
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#form-input{
+    position: relative;
+    left: 6%;
+    padding: 20px 470px 20px 60px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.detail-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+#tri-card{
+    display: flex;
+    justify-content: space-around;
+    height: 20%;
+    width: 100%;
+    position: relative;
+    top: 8%;
+    /* border: 2px solid black; */
+}
+#username-card{
+    display : flex;
+    font-size: x-large;
+    justify-content: space-between;
+    position: relative;
+    bottom: 5%;
+}
+
+.repo-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+#username{
+    position: relative;
+    left: 14%;
+}
+#bio{
+    position: relative;
+    left: 20%;
+    top: 60%;
+    width: 250%;
+}
+#joined-date{
+    position: relative;
+    right: 10%;
+    font-size: large;
+}
+#info-card{
+    position: relative;
+    top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 25%;
+    width: 99%;
+    font-size: x-large;
+}
