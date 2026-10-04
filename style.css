@@ -33,6 +33,7 @@ body{
     align-items: center;
     /* gap: 50px; */
 }
+
 img{
     align-self: flex-start;
     border-radius: 100%;
